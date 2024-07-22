@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --violet-button: #473bf0;
+    --bg-header: #f4f7fa;
+    --colortext-bold: #161c2d;
+    --green-page: #68d585;
+    --blue-page: #473bf0;
+    --red-page: #f64b4b;
+  }
+}
