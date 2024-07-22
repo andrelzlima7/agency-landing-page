@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+<h1 align="center">
+    <img src="public/capa-readme.png">
+   
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre
 
-Currently, two official plugins are available:
+- Projeto realizado para a prática de desenvolvimento Web, com React + Typescript + Tailwindcss.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias
 
-## Expanding the ESLint configuration
+- [React](https://react.dev/)
+- [Vitejs](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCss](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Download
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+# Clone o repositório do Github
+$ git clone https://github.com/andrelzlima7/agency-landing-page.git
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Instale as dependências necessárias
+$ npm install
+
+# Inicie o projeto
+$ npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Link de acesso a aplicação
+
+- https://agency-landing-page-omega.vercel.app/
